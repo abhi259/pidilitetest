@@ -11,7 +11,7 @@ export const SearchSuggestion = ({ filteredData }) => {
         return (
           <div
             key={item.id}
-            className={`hover:bg-[#979797] p-3 ${
+            className={`hover:bg-[#adadad] transition duration-300 delay-75  p-3 ${
               index === length ? "rounded-b-2xl " : "rounded-none"
             }  `}
           >
